@@ -60,3 +60,18 @@ body {
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 1px solid #feac32;
   }
+
+  media (max-width: 700px) {
+    #game {
+        width: 90%; 
+        max-width: none; 
+        margin: 0 auto; 
+    }
+    button {
+        margin: 5px;
+    }
+
+    body::before {
+        background-size: 130% 100%;
+    }
+}
