@@ -69,6 +69,7 @@ body {
         width: 90%; 
         max-width: none; 
         margin: 0 auto; 
+        transform: translate(-50%, -20%);
     }
     button {
         margin: 5px;
